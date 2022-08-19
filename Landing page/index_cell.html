@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-head img{
+    width: 100px; 
+}
+.container-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35px;
+    padding: 15px;
+
+}
+.container-nav-head ul{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    text-decoration: none;
+}
+.container-img{
+    height: 500px;
+    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1501/river_mountains_beauty-Nature_HD_Wallpaper_1366x768.jpg");
+    background-size: cover;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.container-img-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;    
+    text-align: center;
+    gap: 20px;
+    
+    
+}
+.container-img-text h1{
+    color: white;
+    font-size: 60px;
+}
+.container-img-text h3{
+    color: #fff;        
+}
+.products{
+    
+    height: auto;
+    width: 30%;
+    height: 180px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;    
+}
+.products h1{
+    font-size: 22px;
+}
+.products h3{
+    font-size: 15px;
+    color: #bbb;
+}
+.section-two{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;       
+}
+
+
+
+
+@media (max-width:1000px) {
+    .container-img-text{
+        width: 60%;       
+    }
+    .products h3{
+        font-size: 12px;
+    }
+    .container-img-text h1{
+        font-size: 50px;}
+}
+@media (max-width:745px) {
+    .container-img-text{
+        width: 80%;
+       
+    }
+    .container-img-text h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:530px) {
+    .container-img-text{
+        width: 80%;
+        
+    }
+    .container-img-text h3{
+        font-size: 15px;
+        font-weight: 200;
+    }
+}
+@media (max-width:500px) {
+    .products img{
+        height: 30px;
+    }    
+    .products h1{
+        font-size: 17px;
+    }
+    .products h3{
+        font-size: 10px;
+    }
+}
+@media (max-width:400px) {
+    .container-head img{
+        width: 80px; 
+    }
+    .container-nav-head ul{
+        font-size: 12px;
+        width: 170px;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-head">
+            <img src="https://logospng.org/download/samsung/logo-samsung-2048.png" alt="">
+            <div class="container-nav-head">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Post</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <section >
+            <div class="container-img">
+                <div class="container-img-text">
+                    <h1>Think Different.</h1>
+                    <h3> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum..</h3>
+                </div>
+            </div>
+        </section>
+
+        <section style="height: 1500px; width:auto;">
+            <div class="section-two">
+                <div class="products">
+                    <img src="imagens/smarthphone.png" alt="asdasdada">
+                    <h1>Product Feature</h1>
+                    <h3>At volt doid vei neque rhocus dignissim.  asaasd dsdasdd dasdasd dasdadsa Tort at amtsuada dacus odio nec.</h3>       
+                </div>
+
+                <div class="products">
+                    <img src="imagens/search.png" alt="asdasdada">
+                    <h1>Product Feature</h1>
+                    <h3>At volt doid vei neque rhocus dignissim.  asaasd dsdasdd dasdasd dasdadsa Tort at amtsuada dacus odio nec.</h3>       
+                </div>
+
+                <div class="products">
+                    <img src="imagens/save.png" alt="asdasdada">
+                    <h1>Product Feature</h1>
+                    <h3>At volt doid vei neque rhocus dignissim.  asaasd dsdasdd dasdasd dasdadsa Tort at amtsuada dacus odio nec.</h3>       
+                </div>
+
+                <div class="products">
+                    <img src="imagens/settings.png" alt="asdasdada">
+                    <h1>Product Feature</h1>
+                    <h3>At volt doid vei neque rhocus dignissim.  asaasd dsdasdd dasdasd dasdadsa Tort at amtsuada dacus odio nec.</h3>      
+                </div>
+
+                <div class="products">
+                    <img src="imagens/star.png" alt="asdasdada">
+                    <h1>Product Feature</h1>
+                    <h3>At volt doid vei neque rhocus dignissim.  asaasd dsdasdd dasdasd dasdadsa Tort at amtsuada dacus odio nec.</h3>    
+                </div>
+
+                <div class="products">
+                    <img src="imagens/diamond.png" alt="asdasdada">
+                    <h1>Product Feature</h1>
+                    <h3>At volt doid vei neque rhocus dignissim.  asaasd dsdasdd dasdasd dasdadsa Tort at amtsuada dacus odio nec.</h3>       
+                </div>
+            </div>    
+        </section>
+    </nav>
+</body>
+</html>
